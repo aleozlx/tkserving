@@ -1,0 +1,6 @@
+FROM aleozlx/tkstack-basic:research
+RUN pip install --upgrade pip
+RUN pip --no-cache-dir install Flask 
+WORKDIR /app
+CMD /bin/bash
+
